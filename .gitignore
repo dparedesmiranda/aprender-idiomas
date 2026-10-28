@@ -1,0 +1,13 @@
+# --- Dependencias y código generado ---
+x-new/
+
+# --- Herramientas de Pruebas locales ---
+
+# --- Fichero de configuracion de Docker
+
+# --- Configuraciones del Editor (VS Code) ---
+.vscode/
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db

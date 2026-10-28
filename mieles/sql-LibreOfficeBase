@@ -1,0 +1,7 @@
+TIPS DE SQL PARA LIBREOFFICE BASE
+
+Estos comandos se ejecutan en la opcion del menu:
+Herramientas->SQL...
+
+DELETE FROM "REGISTRO";
+ALTER TABLE "REGISTRO" ALTER COLUMN "ID" RESTART WITH 1;SQL
