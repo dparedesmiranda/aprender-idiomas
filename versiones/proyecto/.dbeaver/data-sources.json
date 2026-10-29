@@ -1,0 +1,95 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1a1836b71d9-1a96f11300fa1602": {
+			"provider": "duckdb",
+			"driver": "duckdb_jdbc",
+			"name": "db-e-eiil.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/DouckDB/db-e-eiil.db",
+				"url": "jdbc:duckdb:/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/DouckDB/db-e-eiil.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false
+			}
+		},
+		"sqlite_jdbc-1a1836bcc59-7c536761967fa917": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "db-i-eiil.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/SQLite/db-i-eiil.db",
+				"url": "jdbc:sqlite:/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/SQLite/db-i-eiil.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false
+			}
+		},
+		"msaccess_ucanaccess-1a1836c3abb-49555c891ea5d25d": {
+			"provider": "generic",
+			"driver": "msaccess_ucanaccess",
+			"name": "db-i-eiil.accdb",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/Access/db-i-eiil.accdb",
+				"url": "jdbc:ucanaccess:///home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/Access/db-i-eiil.accdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"hsqldb_embedded-1a18382aa25-10fabb91f3bc667b": {
+			"provider": "generic",
+			"driver": "hsqldb_embedded",
+			"name": "db-i-eiil",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/LibreOffice Base/db-i-eiil/",
+				"url": "jdbc:hsqldb:file:/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/LibreOffice Base/db-i-eiil/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"properties": {
+					"omitSynonyms": "true",
+					"getSynonyms": "false",
+					"shutdown": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-1a183c5878c-1ba6e12221ebd813": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "db-i-eiil.db (1)",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/SQLite/db-i-eiil.db",
+				"url": "jdbc:sqlite:/home/david/Documentos/DEV-PROY/X-WORKSPACE/aprender-idiomas/versiones/SQLite/db-i-eiil.db",
+				"configurationType": "MANUAL",
+				"type": "dev"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"colorDark": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400,
+			"security": {
+				"permission-restrictions": []
+			}
+		}
+	}
+}

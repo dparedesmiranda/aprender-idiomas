@@ -1,0 +1,2 @@
+ALTER TABLE "tabla" ALTER COLUMN "nombre_viejo" RENAME TO "nombre_nuevo"; -Para cambiar el nombre de un campo en una tabla
+ALTER TABLE "nombre_viejo" RENAME TO "nombre_nuevo";                      -Para cambiar el nombre de una tabla   

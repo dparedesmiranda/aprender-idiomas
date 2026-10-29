@@ -65,6 +65,7 @@ ALTER TABLE "TipoPalabra" ALTER COLUMN "Id" RESTART WITH 0;
 INSERT INTO "Idioma" ("Idioma") VALUES ('Español'); -- 0
 INSERT INTO "Idioma" ("Idioma") VALUES ('Italiano'); -- 1
 INSERT INTO "Idioma" ("Idioma") VALUES ('Ingles'); -- 2
+INSERT INTO "Idioma" ("Idioma") VALUES ('Latin'); -- 3
 -- *************************************************************************************************************************
 -- CARGA DE LOS LETRAS
 -- *************************************************************************************************************************

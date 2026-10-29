@@ -1,0 +1,8 @@
+/*C1*/SET SCHEMA PUBLIC
+CONNECT USER SA
+ALTER TABLE "Idioma" ALTER COLUMN "Idioma" RENAME TO "nombre_idioma"
+ALTER TABLE "Idioma" ALTER COLUMN "Id" RENAME TO "id_idioma"
+ALTER TABLE "Idioma" RENAME TO "idioma"
+ALTER TABLE "idioma" RENAME TO "lengua"
+ALTER TABLE "Letra" RENAME TO "letra"
+ALTER TABLE "Alfabeto" RENAME TO "alfabeto"

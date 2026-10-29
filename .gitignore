@@ -1,5 +1,6 @@
 # --- Dependencias y código generado ---
 x-new/
+x-proyectos/
 
 # --- Herramientas de Pruebas locales ---
 
@@ -11,3 +12,4 @@ x-new/
 # --- Archivos del Sistema Operativo ---
 .DS_Store
 Thumbs.db
+.bkp
